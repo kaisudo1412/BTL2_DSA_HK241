@@ -1,0 +1,48 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TASK 1 AND TASK 2",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/outDebug.exe",
+      "args": [
+        "test_unit",
+        "hash08"
+      ],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++ build active file",
+      "miDebuggerPath": "C:/MinGW/x86_64-11.2.0-release-posix-seh-rt_v9-rev1/mingw64/bin/gdb.exe"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": ["test_unit"],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/ADMIN/OneDrive - hcmut.edu.vn/Documents/Year_3/HK241/DSA/BTL2/TASK1/template",
+      "program": "c:/Users/ADMIN/OneDrive - hcmut.edu.vn/Documents/Year_3/HK241/DSA/BTL2/TASK1/template/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
